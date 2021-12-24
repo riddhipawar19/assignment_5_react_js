@@ -1,0 +1,44 @@
+.posts{
+    background-color: white;
+    width: 500px;
+    margin-top: 24px;
+    padding: 18px;
+    border-radius: 12px;
+    margin-left: 32%;
+}
+
+.profile__icon{
+    font-size: 45px !important;
+    color: rgb(99, 98, 98);
+}
+
+.posts__name{
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.posts__name > p{
+    font-weight: 500;
+    margin: 10px;
+}
+
+.posts__content > p{
+    padding: 10px 0 10px 0;
+    font-weight: 700;
+}
+
+.posts__date > p{
+    display: flex;
+    justify-content: right;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#delete__icon{
+    display: flex;
+    color: rgb(99, 98, 98);
+    margin-left: 55%;
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
